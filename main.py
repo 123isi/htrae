@@ -9,6 +9,7 @@ from fastapi import FastAPI
 from typing import List
 from fastapi import Body
 from schemas import CommentUpdate
+import sys
 app = FastAPI()
 
 
